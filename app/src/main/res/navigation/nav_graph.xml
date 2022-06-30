@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/textFragment">
+
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.photo.PhotoFragment"
+        android:label="Photo translation" />
+    <fragment
+        android:id="@+id/starsFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.stars.StarsFragment"
+        android:label="Favorites" />
+    <fragment
+        android:id="@+id/textFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.text.TextFragment"
+        android:label="Translation" >
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.settings.SettingsFragment"
+        android:label="Settings" />
+    <dialog
+        android:id="@+id/voiceDialogFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.dialogs.voice.VoiceDialogFragment"
+        android:label="VoiceDialogFragment" />
+    <dialog
+        android:id="@+id/chooseToLangDialogFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.dialogs.choose_to.ChooseToLangDialogFragment"
+        android:label="ChooseToLangDialogFragment" />
+    <dialog
+        android:id="@+id/chooseFromLangDialogFragment"
+        android:name="com.gaziev.vcttranslate.app.fragments.dialogs.choose_from.ChooseFromLangDialogFragment"
+        android:label="ChooseFromLangDialogFragment" />
+</navigation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/activity_main.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/dialog_fr_voice.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/fr_photo.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/fr_settings.xml" value="0.33" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/fr_stars.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/fr_text.xml" value="0.22" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/item_choose_lang.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/item_word.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/layout_choose_lang.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/layout_photo_result_translate.xml" value="0.25" />
+        <entry key="..\:/Users/111/dev/work/translator_white/app/src/main/res/layout/layout_result_translate.xml" value="0.1712962962962963" />
+        <entry key="app/src/main/res/drawable/bg_button_blue.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/bg_button_blue_light.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/bg_dialog_voice.xml" value="0.2225" />
+        <entry key="app/src/main/res/drawable/bg_form_text.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/bg_form_text_top_corners.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/bg_search_et.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/bottom_icons_1.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/corner_bg_item_settings.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.251" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.251" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.251" />
+        <entry key="app/src/main/res/drawable/toolbar_icons_1.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/toolbar_icons_2.xml" value="0.1335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11018518518518519" />
+        <entry key="app/src/main/res/layout/dialog_choose_lang.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/dialog_fr_voice.xml" value="0.2722222222222222" />
+        <entry key="app/src/main/res/layout/fr_photo.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/fr_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fr_stars.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fr_text.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/layout/fr_voice.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/item_choose_lang.xml" value="0.23981481481481481" />
+        <entry key="app/src/main/res/layout/item_word.xml" value="0.3037037037037037" />
+        <entry key="app/src/main/res/layout/layout_choose_lang.xml" value="0.19814814814814816" />
+        <entry key="app/src/main/res/layout/layout_result_translate.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.11018518518518519" />
+        <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.3111111111111111" />
+        <entry key="app/src/main/res/menu/menu_toolbar.xml" value="0.20277777777777778" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.11018518518518519" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

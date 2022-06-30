@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VCTtranslate" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/vct_blue</item>
+        <item name="colorPrimaryVariant">@color/vct_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/vct_blue_light</item>
+        <item name="colorSecondaryVariant">@color/vct_blue_dark</item>
+        <item name="colorOnSecondary">@color/vct_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/vct_blue_dark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/vct_blue_light</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+</resources>

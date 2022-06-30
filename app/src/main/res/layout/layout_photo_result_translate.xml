@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnToCopyClipboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/outputTextFromLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/alpha_0"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/here_will_be_your_translated_text"
+                android:textColor="@color/vct_blue_light"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/outputTextToLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/alpha_0"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="@string/here_will_be_your_translated_text"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteY="15dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+    <ImageButton
+        android:padding="5dp"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/btnToCopyClipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/vct_blue_dark"
+        android:src="@drawable/icons_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:padding="5dp"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/btnShareText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/vct_blue_dark"
+        android:src="@drawable/icons_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnToCopyClipboard"
+        app:tint="@color/white" />
+
+
+    <ImageButton
+        android:padding="5dp"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/btnOpenVoiceDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/vct_blue_dark"
+        android:src="@drawable/icons_1"
+        app:layout_constraintEnd_toEndOf="@+id/btnShareText"
+        app:layout_constraintTop_toBottomOf="@+id/btnShareText"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:padding="5dp"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/btnSaveDictionary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/vct_blue_dark"
+        android:src="@drawable/icons_2"
+        app:layout_constraintEnd_toEndOf="@+id/btnOpenVoiceDialog"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenVoiceDialog"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

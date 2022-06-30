@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VCTtranslate</string>
+    <string name="todo">TODO</string>
+    <string name="voice">Voice</string>
+    <string name="favorites">Favorites</string>
+    <string name="home">Home</string>
+    <string name="photo">Photo</string>
+    <string name="settings">Settings</string>
+    <string name="close">Close</string>
+    <string name="russia">Russia</string>
+    <string name="english">English</string>
+    <string name="enter_your_text_for_translation">Enter your text for translation...</string>
+    <string name="here_will_be_your_translated_text">Here will be your translated text.</string>
+    <string name="search">Search</string>
+    <string name="translating_wait">Translating...</string>
+    <string name="recognized">Recognized..</string>
+    <string name="we_cant_translated">Unfortunately, we cannot translate due to an unexpected error, try reinstalling the application or check your Internet connection..</string>
+    <string name="auto_detection">Auto-detection</string>
+    <string name="choose_language">Choose language</string>
+    <string name="history">History</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="hello_how">Hello, how...</string>
+    <string name="saved_to_dict">Saved to dictionary</string>
+    <string name="identification">Identification...</string>
+</resources>

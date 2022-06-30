@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/starsFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_icons_3"
+        android:title="@string/favorites" />
+    <item
+        android:id="@+id/voiceDialogFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_icons_1"
+        android:title="@string/voice" />
+    <item
+        android:id="@+id/textFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_icons_4"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/photoFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_icons_2"
+        android:title="@string/photo" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_icons_5"
+        android:title="@string/settings" />
+</menu>

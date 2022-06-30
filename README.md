@@ -7,4 +7,4 @@
 
 ## Preview
 
-<img src="https://github.com/gazievDima/RxJavaTranslateAppMLKit/blob/main/1.jpg" width="500" height="700">
+<img src="https://github.com/gazievDima/RxJavaTranslateAppMLKit/blob/main/1.jpg" width="300" height="550">

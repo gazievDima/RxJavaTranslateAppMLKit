@@ -1,9 +1,13 @@
 # RxJavaTranslateAppMLKit
 
 Написал на коленке для тестов MLKit библиотек:
+(не пофикшен баг, на xiaomi устройствах не запрашивается разрешение на доступ к камере)
 - https://developers.google.com/ml-kit/language/identification
 - https://developers.google.com/ml-kit/language/translation
 - https://developers.google.com/ml-kit/vision/image-labeling
+
+## Debug APK
+https://github.com/gazievDima/RxJavaTranslateAppMLKit/blob/main/Translate%20MLKit.apk
 
 ## Preview
 
